@@ -859,8 +859,8 @@ def on_forever():
 
 
 def z0():
-    basic.set_led_color(Colors.RED)
-    #basic.turn_rgb_led_off()
+   # basic.set_led_color(Colors.RED)
+    basic.turn_rgb_led_off()
     basic.pause(speed)
 
 def z1():

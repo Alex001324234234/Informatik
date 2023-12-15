@@ -3,8 +3,8 @@ let worta = [""]
 let speed = 0.5 * 1000
 // angabe in sekunden
 function z0() {
-    basic.setLedColor(Colors.Red)
-    // basic.turn_rgb_led_off()
+    //  basic.set_led_color(Colors.RED)
+    basic.turnRgbLedOff()
     basic.pause(speed)
 }
 
