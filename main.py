@@ -1,7 +1,16 @@
+#kaliope 13
+
+
+
 def on_forever():
-    Wort = ["H","a","l","l","o"]
-    for i in range(len(Wort)):
-        if Wort[i] == "!":
+    
+   
+    wort = ["!"]
+    
+   
+    connection()
+    for i in range(len(wort)):
+        if wort[i] == "!":
             z0()
             z1()
             z0()
@@ -10,7 +19,7 @@ def on_forever():
             z0()
             z1()
 
-        elif Wort[i] == '"':
+        elif wort[i] == '"':
             z0()
             z1()
             z0()
@@ -19,7 +28,7 @@ def on_forever():
             z0()
             z0()
 
-        elif Wort[i] == '#':
+        elif wort[i] == '#':
             z0()
             z1()
             z0()
@@ -28,7 +37,7 @@ def on_forever():
             z0()
             z1()
 
-        elif Wort[i] == '$':
+        elif wort[i] == '$':
             z0()
             z1()
             z0()
@@ -37,7 +46,7 @@ def on_forever():
             z0()
             z0()
 
-        elif Wort[i] == '%':
+        elif wort[i] == '%':
             z0()
             z1()
             z0()
@@ -46,7 +55,7 @@ def on_forever():
             z0()
             z1()
 
-        elif Wort[i] == '&':
+        elif wort[i] == '&':
             z0()
             z1()
             z0()
@@ -55,7 +64,7 @@ def on_forever():
             z1()
             z0()
 
-        elif Wort[i] == '\'':
+        elif wort[i] == '\'':
             z0()
             z1()
             z0()
@@ -64,7 +73,7 @@ def on_forever():
             z1()
             z1()
 
-        elif Wort[i] == '(':
+        elif wort[i] == '(':
             z0()
             z1()
             z0()
@@ -73,7 +82,7 @@ def on_forever():
             z0()
             z0()
 
-        elif Wort[i] == ')':
+        elif wort[i] == ')':
             z0()
             z1()
             z0()
@@ -82,7 +91,7 @@ def on_forever():
             z0()
             z1()
 
-        elif Wort[i] == '+':
+        elif wort[i] == '+':
             z0()
             z1()
             z0()
@@ -91,7 +100,7 @@ def on_forever():
             z1()
             z1()
 
-        elif Wort[i] == ',':
+        elif wort[i] == ',':
             z0()
             z1()
             z0()
@@ -100,7 +109,7 @@ def on_forever():
             z0()
             z0()
 
-        elif Wort[i] == '.':
+        elif wort[i] == '.':
             z0()
             z1()
             z0()
@@ -109,7 +118,7 @@ def on_forever():
             z1()
             z0()
 
-        elif Wort[i] == '/':
+        elif wort[i] == '/':
             z0()
             z1()
             z0()
@@ -117,7 +126,7 @@ def on_forever():
             z1()
             z1()
             z1()
-        elif Wort[i] == "0":
+        elif wort[i] == "0":
             z0()
             z1()
             z1()
@@ -126,7 +135,7 @@ def on_forever():
             z0()
             z0()
 
-        elif Wort[i] == "1":
+        elif wort[i] == "1":
             z0()
             z1()
             z1()
@@ -135,7 +144,7 @@ def on_forever():
             z0()
             z1()
 
-        elif Wort[i] == "2":
+        elif wort[i] == "2":
             z0()
             z1()
             z1()
@@ -144,7 +153,7 @@ def on_forever():
             z1()
             z0()
 
-        elif Wort[i] == "3":
+        elif wort[i] == "3":
             z0()
             z1()
             z1()
@@ -153,7 +162,7 @@ def on_forever():
             z1()
             z1()
 
-        elif Wort[i] == "4":
+        elif wort[i] == "4":
             z0()
             z1()
             z1()
@@ -162,7 +171,7 @@ def on_forever():
             z0()
             z0()
 
-        elif Wort[i] == "5":
+        elif wort[i] == "5":
             z0()
             z1()
             z1()
@@ -171,7 +180,7 @@ def on_forever():
             z0()
             z1()
 
-        elif Wort[i] == "6":
+        elif wort[i] == "6":
             z0()
             z1()
             z1()
@@ -180,7 +189,7 @@ def on_forever():
             z1()
             z0()
 
-        elif Wort[i] == "7":
+        elif wort[i] == "7":
             z0()
             z1()
             z1()
@@ -189,7 +198,7 @@ def on_forever():
             z1()
             z1()
 
-        elif Wort[i] == "8":
+        elif wort[i] == "8":
             z0()
             z1()
             z1()
@@ -198,7 +207,7 @@ def on_forever():
             z0()
             z0()
 
-        elif Wort[i] == "9":
+        elif wort[i] == "9":
             z0()
             z1()
             z1()
@@ -206,7 +215,7 @@ def on_forever():
             z0()
             z0()
             z1()
-        elif Wort[i] == ":":
+        elif wort[i] == ":":
             z0()
             z1()
             z1()
@@ -215,7 +224,7 @@ def on_forever():
             z1()
             z0()
 
-        elif Wort[i] == ";":
+        elif wort[i] == ";":
             z0()
             z1()
             z1()
@@ -224,7 +233,7 @@ def on_forever():
             z1()
             z1()
 
-        elif Wort[i] == "<":
+        elif wort[i] == "<":
             z0()
             z1()
             z1()
@@ -233,7 +242,7 @@ def on_forever():
             z0()
             z0()
 
-        elif Wort[i] == "=":
+        elif wort[i] == "=":
             z0()
             z1()
             z1()
@@ -242,7 +251,7 @@ def on_forever():
             z0()
             z1()
 
-        elif Wort[i] == "?":
+        elif wort[i] == "?":
             z0()
             z1()
             z1()
@@ -251,7 +260,7 @@ def on_forever():
             z1()
             z1()
 
-        elif Wort[i] == "@":
+        elif wort[i] == "@":
             z1()
             z0()
             z0()
@@ -259,7 +268,7 @@ def on_forever():
             z0()
             z0()
             z0()
-        elif Wort[i] == "A":
+        elif wort[i] == "A":
             z1()
             z0()
             z0()
@@ -268,7 +277,7 @@ def on_forever():
             z0()
             z1()
 
-        elif Wort[i] == "B":
+        elif wort[i] == "B":
             z1()
             z0()
             z0()
@@ -277,7 +286,7 @@ def on_forever():
             z1()
             z0()
 
-        elif Wort[i] == "C":
+        elif wort[i] == "C":
             z1()
             z0()
             z0()
@@ -286,7 +295,7 @@ def on_forever():
             z1()
             z1()
 
-        elif Wort[i] == "D":
+        elif wort[i] == "D":
             z1()
             z0()
             z0()
@@ -295,7 +304,7 @@ def on_forever():
             z0()
             z0()
 
-        elif Wort[i] == "E":
+        elif wort[i] == "E":
             z1()
             z0()
             z0()
@@ -304,7 +313,7 @@ def on_forever():
             z0()
             z1()
 
-        elif Wort[i] == "F":
+        elif wort[i] == "F":
             z1()
             z0()
             z0()
@@ -313,7 +322,7 @@ def on_forever():
             z1()
             z0()
 
-        elif Wort[i] == "G":
+        elif wort[i] == "G":
             z1()
             z0()
             z0()
@@ -322,7 +331,7 @@ def on_forever():
             z1()
             z1()
 
-        elif Wort[i] == "H":
+        elif wort[i] == "H":
             z1()
             z0()
             z0()
@@ -331,7 +340,7 @@ def on_forever():
             z0()
             z0()
 
-        elif Wort[i] == "I":
+        elif wort[i] == "I":
             z1()
             z0()
             z0()
@@ -340,7 +349,7 @@ def on_forever():
             z0()
             z1()
 
-        elif Wort[i] == "J":
+        elif wort[i] == "J":
             z1()
             z0()
             z0()
@@ -349,7 +358,7 @@ def on_forever():
             z1()
             z0()
 
-        elif Wort[i] == "K":
+        elif wort[i] == "K":
             z1()
             z0()
             z0()
@@ -358,7 +367,7 @@ def on_forever():
             z1()
             z1()
 
-        elif Wort[i] == "L":
+        elif wort[i] == "L":
             z1()
             z0()
             z0()
@@ -366,7 +375,7 @@ def on_forever():
             z1()
             z0()
             z0()
-        elif Wort[i] == "M":
+        elif wort[i] == "M":
             z1()
             z0()
             z0()
@@ -375,7 +384,7 @@ def on_forever():
             z0()
             z1()
 
-        elif Wort[i] == "N":
+        elif wort[i] == "N":
             z1()
             z0()
             z0()
@@ -384,7 +393,7 @@ def on_forever():
             z1()
             z0()
 
-        elif Wort[i] == "O":
+        elif wort[i] == "O":
             z1()
             z0()
             z0()
@@ -393,7 +402,7 @@ def on_forever():
             z1()
             z1()
 
-        elif Wort[i] == "P":
+        elif wort[i] == "P":
             z1()
             z0()
             z1()
@@ -402,7 +411,7 @@ def on_forever():
             z0()
             z0()
 
-        elif Wort[i] == "Q":
+        elif wort[i] == "Q":
             z1()
             z0()
             z1()
@@ -411,7 +420,7 @@ def on_forever():
             z0()
             z1()
 
-        elif Wort[i] == "R":
+        elif wort[i] == "R":
             z1()
             z0()
             z1()
@@ -420,7 +429,7 @@ def on_forever():
             z1()
             z0()
 
-        elif Wort[i] == "S":
+        elif wort[i] == "S":
             z1()
             z0()
             z1()
@@ -429,7 +438,7 @@ def on_forever():
             z1()
             z1()
 
-        elif Wort[i] == "T":
+        elif wort[i] == "T":
             z1()
             z0()
             z1()
@@ -438,7 +447,7 @@ def on_forever():
             z0()
             z0()
 
-        elif Wort[i] == "U":
+        elif wort[i] == "U":
             z1()
             z0()
             z1()
@@ -447,7 +456,7 @@ def on_forever():
             z0()
             z1()
 
-        elif Wort[i] == "V":
+        elif wort[i] == "V":
             z1()
             z0()
             z1()
@@ -456,7 +465,7 @@ def on_forever():
             z1()
             z0()
 
-        elif Wort[i] == "W":
+        elif wort[i] == "W":
             z1()
             z0()
             z1()
@@ -465,7 +474,7 @@ def on_forever():
             z1()
             z1()
 
-        elif Wort[i] == "X":
+        elif wort[i] == "X":
             z1()
             z0()
             z1()
@@ -474,7 +483,7 @@ def on_forever():
             z0()
             z0()
 
-        elif Wort[i] == "Y":
+        elif wort[i] == "Y":
             z1()
             z0()
             z1()
@@ -483,7 +492,7 @@ def on_forever():
             z0()
             z1()
 
-        elif Wort[i] == "Z":
+        elif wort[i] == "Z":
             z1()
             z0()
             z1()
@@ -492,7 +501,7 @@ def on_forever():
             z1()
             z0()
 
-        elif Wort[i] == "[":
+        elif wort[i] == "[":
             z1()
             z0()
             z1()
@@ -501,7 +510,7 @@ def on_forever():
             z1()
             z1()
 
-        elif Wort[i] == "\\":
+        elif wort[i] == "\\":
             z1()
             z0()
             z1()
@@ -510,7 +519,7 @@ def on_forever():
             z0()
             z0()
 
-        elif Wort[i] == "]":
+        elif wort[i] == "]":
             z1()
             z0()
             z1()
@@ -519,7 +528,7 @@ def on_forever():
             z0()
             z1()
 
-        elif Wort[i] == "^":
+        elif wort[i] == "^":
             z1()
             z0()
             z1()
@@ -528,7 +537,7 @@ def on_forever():
             z1()
             z0()
 
-        elif Wort[i] == "_":
+        elif wort[i] == "_":
             z1()
             z0()
             z1()
@@ -537,7 +546,7 @@ def on_forever():
             z1()
             z1()
 
-        elif Wort[i] == "`":
+        elif wort[i] == "`":
             z1()
             z1()
             z0()
@@ -546,7 +555,7 @@ def on_forever():
             z0()
             z0()
 
-        elif Wort[i] == "a":
+        elif wort[i] == "a":
             z1()
             z1()
             z0()
@@ -555,7 +564,7 @@ def on_forever():
             z0()
             z1()
 
-        elif Wort[i] == "b":
+        elif wort[i] == "b":
             z1()
             z1()
             z0()
@@ -564,7 +573,7 @@ def on_forever():
             z1()
             z0()
 
-        elif Wort[i] == "c":
+        elif wort[i] == "c":
             z1()
             z1()
             z0()
@@ -573,7 +582,7 @@ def on_forever():
             z1()
             z1()
 
-        elif Wort[i] == "d":
+        elif wort[i] == "d":
             z1()
             z1()
             z0()
@@ -582,7 +591,7 @@ def on_forever():
             z0()
             z0()
 
-        elif Wort[i] == "e":
+        elif wort[i] == "e":
             z1()
             z1()
             z0()
@@ -591,7 +600,7 @@ def on_forever():
             z0()
             z1()
 
-        elif Wort[i] == "f":
+        elif wort[i] == "f":
             z1()
             z1()
             z0()
@@ -600,7 +609,7 @@ def on_forever():
             z1()
             z0()
 
-        elif Wort[i] == "g":
+        elif wort[i] == "g":
             z1()
             z1()
             z0()
@@ -609,7 +618,7 @@ def on_forever():
             z1()
             z1()
 
-        elif Wort[i] == "h":
+        elif wort[i] == "h":
             z1()
             z1()
             z0()
@@ -618,7 +627,7 @@ def on_forever():
             z0()
             z0()
 
-        elif Wort[i] == "i":
+        elif wort[i] == "i":
             z1()
             z1()
             z0()
@@ -627,7 +636,7 @@ def on_forever():
             z0()
             z1()
 
-        elif Wort[i] == "j":
+        elif wort[i] == "j":
             z1()
             z1()
             z0()
@@ -636,7 +645,7 @@ def on_forever():
             z1()
             z0()
 
-        elif Wort[i] == "k":
+        elif wort[i] == "k":
             z1()
             z1()
             z0()
@@ -645,7 +654,7 @@ def on_forever():
             z1()
             z1()
 
-        elif Wort[i] == "l":
+        elif wort[i] == "l":
             z1()
             z1()
             z0()
@@ -654,7 +663,7 @@ def on_forever():
             z0()
             z0()
 
-        elif Wort[i] == "m":
+        elif wort[i] == "m":
             z1()
             z1()
             z0()
@@ -663,7 +672,7 @@ def on_forever():
             z0()
             z1()
 
-        elif Wort[i] == "n":
+        elif wort[i] == "n":
             z1()
             z1()
             z0()
@@ -672,7 +681,7 @@ def on_forever():
             z1()
             z0()
             
-        elif Wort[i] == "o":
+        elif wort[i] == "o":
             z1()
             z1()
             z0()
@@ -681,7 +690,7 @@ def on_forever():
             z1()
             z1()
 
-        elif Wort[i] == "p":
+        elif wort[i] == "p":
             z1()
             z1()
             z1()
@@ -690,7 +699,7 @@ def on_forever():
             z0()
             z0()
 
-        elif Wort[i] == "q":
+        elif wort[i] == "q":
             z1()
             z1()
             z1()
@@ -699,7 +708,7 @@ def on_forever():
             z0()
             z1()
 
-        elif Wort[i] == "r":
+        elif wort[i] == "r":
             z1()
             z1()
             z1()
@@ -708,7 +717,7 @@ def on_forever():
             z1()
             z0()
 
-        elif Wort[i] == "s":
+        elif wort[i] == "s":
             z1()
             z1()
             z1()
@@ -717,7 +726,7 @@ def on_forever():
             z1()
             z1()
 
-        elif Wort[i] == "t":
+        elif wort[i] == "t":
             z1()
             z1()
             z1()
@@ -726,7 +735,7 @@ def on_forever():
             z0()
             z0()
 
-        elif Wort[i] == "u":
+        elif wort[i] == "u":
             z1()
             z1()
             z1()
@@ -735,7 +744,7 @@ def on_forever():
             z0()
             z1()
 
-        elif Wort[i] == "v":
+        elif wort[i] == "v":
             z1()
             z1()
             z1()
@@ -744,7 +753,7 @@ def on_forever():
             z1()
             z0()
 
-        elif Wort[i] == "w":
+        elif wort[i] == "w":
             z1()
             z1()
             z1()
@@ -753,7 +762,7 @@ def on_forever():
             z1()
             z1()
 
-        elif Wort[i] == "x":
+        elif wort[i] == "x":
             z1()
             z1()
             z1()
@@ -762,7 +771,7 @@ def on_forever():
             z0()
             z0()
 
-        elif Wort[i] == "y":
+        elif wort[i] == "y":
             z1()
             z1()
             z1()
@@ -771,7 +780,7 @@ def on_forever():
             z0()
             z1()
 
-        elif Wort[i] == "z":
+        elif wort[i] == "z":
             z1()
             z1()
             z1()
@@ -780,7 +789,7 @@ def on_forever():
             z1()
             z0()
 
-        elif Wort[i] == "{":
+        elif wort[i] == "{":
             z1()
             z1()
             z1()
@@ -789,7 +798,7 @@ def on_forever():
             z1()
             z1()
 
-        elif Wort[i] == "|":
+        elif wort[i] == "|":
             z1()
             z1()
             z1()
@@ -798,7 +807,7 @@ def on_forever():
             z0()
             z0()
 
-        elif Wort[i] == "}":
+        elif wort[i] == "}":
             z1()
             z1()
             z1()
@@ -807,7 +816,7 @@ def on_forever():
             z0()
             z1()
 
-        elif Wort[i] == "~":
+        elif wort[i] == "~":
             z1()
             z1()
             z1()
@@ -815,22 +824,33 @@ def on_forever():
             z1()
             z1()
             z0()
+            
+        
+
 
 
 
 
 def z0():
-    basic.pause(500)
+    basic.turn_rgb_led_off()
+    basic.pause(1000)
 
 def z1():
     basic.set_led_color(Colors.WHITE)
-    basic.pause(500)
-    basic.turn_rgb_led_off()
+    basic.pause(1000)
+    
+
+def connection():
+    z1()
+    z1()
+    z1()
+    z1()
+    z1()
+    z1()
+    z1()
+    z1()
     
     
 basic.forever(on_forever)
 
-        
-    
 
-    

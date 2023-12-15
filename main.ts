@@ -1,17 +1,30 @@
+// kaliope 13
 function z0() {
-    basic.pause(500)
+    basic.turnRgbLedOff()
+    basic.pause(1000)
 }
 
 function z1() {
     basic.setLedColor(Colors.White)
-    basic.pause(500)
-    basic.turnRgbLedOff()
+    basic.pause(1000)
+}
+
+function connection() {
+    z1()
+    z1()
+    z1()
+    z1()
+    z1()
+    z1()
+    z1()
+    z1()
 }
 
 basic.forever(function on_forever() {
-    let Wort = ["H", "a", "l", "l", "o"]
-    for (let i = 0; i < Wort.length; i++) {
-        if (Wort[i] == "!") {
+    let wort = ["!"]
+    connection()
+    for (let i = 0; i < wort.length; i++) {
+        if (wort[i] == "!") {
             z0()
             z1()
             z0()
@@ -19,7 +32,7 @@ basic.forever(function on_forever() {
             z0()
             z0()
             z1()
-        } else if (Wort[i] == "\"") {
+        } else if (wort[i] == "\"") {
             z0()
             z1()
             z0()
@@ -27,7 +40,7 @@ basic.forever(function on_forever() {
             z1()
             z0()
             z0()
-        } else if (Wort[i] == "#") {
+        } else if (wort[i] == "#") {
             z0()
             z1()
             z0()
@@ -35,7 +48,7 @@ basic.forever(function on_forever() {
             z1()
             z0()
             z1()
-        } else if (Wort[i] == "$") {
+        } else if (wort[i] == "$") {
             z0()
             z1()
             z0()
@@ -43,7 +56,7 @@ basic.forever(function on_forever() {
             z1()
             z0()
             z0()
-        } else if (Wort[i] == "%") {
+        } else if (wort[i] == "%") {
             z0()
             z1()
             z0()
@@ -51,7 +64,7 @@ basic.forever(function on_forever() {
             z1()
             z0()
             z1()
-        } else if (Wort[i] == "&") {
+        } else if (wort[i] == "&") {
             z0()
             z1()
             z0()
@@ -59,7 +72,7 @@ basic.forever(function on_forever() {
             z1()
             z1()
             z0()
-        } else if (Wort[i] == "'") {
+        } else if (wort[i] == "'") {
             z0()
             z1()
             z0()
@@ -67,7 +80,7 @@ basic.forever(function on_forever() {
             z1()
             z1()
             z1()
-        } else if (Wort[i] == "(") {
+        } else if (wort[i] == "(") {
             z0()
             z1()
             z0()
@@ -75,7 +88,7 @@ basic.forever(function on_forever() {
             z0()
             z0()
             z0()
-        } else if (Wort[i] == ")") {
+        } else if (wort[i] == ")") {
             z0()
             z1()
             z0()
@@ -83,7 +96,7 @@ basic.forever(function on_forever() {
             z0()
             z0()
             z1()
-        } else if (Wort[i] == "+") {
+        } else if (wort[i] == "+") {
             z0()
             z1()
             z0()
@@ -91,7 +104,7 @@ basic.forever(function on_forever() {
             z0()
             z1()
             z1()
-        } else if (Wort[i] == ",") {
+        } else if (wort[i] == ",") {
             z0()
             z1()
             z0()
@@ -99,7 +112,7 @@ basic.forever(function on_forever() {
             z1()
             z0()
             z0()
-        } else if (Wort[i] == ".") {
+        } else if (wort[i] == ".") {
             z0()
             z1()
             z0()
@@ -107,7 +120,7 @@ basic.forever(function on_forever() {
             z1()
             z1()
             z0()
-        } else if (Wort[i] == "/") {
+        } else if (wort[i] == "/") {
             z0()
             z1()
             z0()
@@ -115,7 +128,7 @@ basic.forever(function on_forever() {
             z1()
             z1()
             z1()
-        } else if (Wort[i] == "0") {
+        } else if (wort[i] == "0") {
             z0()
             z1()
             z1()
@@ -123,7 +136,7 @@ basic.forever(function on_forever() {
             z0()
             z0()
             z0()
-        } else if (Wort[i] == "1") {
+        } else if (wort[i] == "1") {
             z0()
             z1()
             z1()
@@ -131,7 +144,7 @@ basic.forever(function on_forever() {
             z0()
             z0()
             z1()
-        } else if (Wort[i] == "2") {
+        } else if (wort[i] == "2") {
             z0()
             z1()
             z1()
@@ -139,7 +152,7 @@ basic.forever(function on_forever() {
             z0()
             z1()
             z0()
-        } else if (Wort[i] == "3") {
+        } else if (wort[i] == "3") {
             z0()
             z1()
             z1()
@@ -147,7 +160,7 @@ basic.forever(function on_forever() {
             z0()
             z1()
             z1()
-        } else if (Wort[i] == "4") {
+        } else if (wort[i] == "4") {
             z0()
             z1()
             z1()
@@ -155,7 +168,7 @@ basic.forever(function on_forever() {
             z1()
             z0()
             z0()
-        } else if (Wort[i] == "5") {
+        } else if (wort[i] == "5") {
             z0()
             z1()
             z1()
@@ -163,7 +176,7 @@ basic.forever(function on_forever() {
             z1()
             z0()
             z1()
-        } else if (Wort[i] == "6") {
+        } else if (wort[i] == "6") {
             z0()
             z1()
             z1()
@@ -171,7 +184,7 @@ basic.forever(function on_forever() {
             z1()
             z1()
             z0()
-        } else if (Wort[i] == "7") {
+        } else if (wort[i] == "7") {
             z0()
             z1()
             z1()
@@ -179,7 +192,7 @@ basic.forever(function on_forever() {
             z1()
             z1()
             z1()
-        } else if (Wort[i] == "8") {
+        } else if (wort[i] == "8") {
             z0()
             z1()
             z1()
@@ -187,7 +200,7 @@ basic.forever(function on_forever() {
             z0()
             z0()
             z0()
-        } else if (Wort[i] == "9") {
+        } else if (wort[i] == "9") {
             z0()
             z1()
             z1()
@@ -195,7 +208,7 @@ basic.forever(function on_forever() {
             z0()
             z0()
             z1()
-        } else if (Wort[i] == ":") {
+        } else if (wort[i] == ":") {
             z0()
             z1()
             z1()
@@ -203,7 +216,7 @@ basic.forever(function on_forever() {
             z0()
             z1()
             z0()
-        } else if (Wort[i] == ";") {
+        } else if (wort[i] == ";") {
             z0()
             z1()
             z1()
@@ -211,7 +224,7 @@ basic.forever(function on_forever() {
             z0()
             z1()
             z1()
-        } else if (Wort[i] == "<") {
+        } else if (wort[i] == "<") {
             z0()
             z1()
             z1()
@@ -219,7 +232,7 @@ basic.forever(function on_forever() {
             z1()
             z0()
             z0()
-        } else if (Wort[i] == "=") {
+        } else if (wort[i] == "=") {
             z0()
             z1()
             z1()
@@ -227,7 +240,7 @@ basic.forever(function on_forever() {
             z1()
             z0()
             z1()
-        } else if (Wort[i] == "?") {
+        } else if (wort[i] == "?") {
             z0()
             z1()
             z1()
@@ -235,7 +248,7 @@ basic.forever(function on_forever() {
             z1()
             z1()
             z1()
-        } else if (Wort[i] == "@") {
+        } else if (wort[i] == "@") {
             z1()
             z0()
             z0()
@@ -243,7 +256,7 @@ basic.forever(function on_forever() {
             z0()
             z0()
             z0()
-        } else if (Wort[i] == "A") {
+        } else if (wort[i] == "A") {
             z1()
             z0()
             z0()
@@ -251,7 +264,7 @@ basic.forever(function on_forever() {
             z0()
             z0()
             z1()
-        } else if (Wort[i] == "B") {
+        } else if (wort[i] == "B") {
             z1()
             z0()
             z0()
@@ -259,7 +272,7 @@ basic.forever(function on_forever() {
             z0()
             z1()
             z0()
-        } else if (Wort[i] == "C") {
+        } else if (wort[i] == "C") {
             z1()
             z0()
             z0()
@@ -267,7 +280,7 @@ basic.forever(function on_forever() {
             z0()
             z1()
             z1()
-        } else if (Wort[i] == "D") {
+        } else if (wort[i] == "D") {
             z1()
             z0()
             z0()
@@ -275,7 +288,7 @@ basic.forever(function on_forever() {
             z1()
             z0()
             z0()
-        } else if (Wort[i] == "E") {
+        } else if (wort[i] == "E") {
             z1()
             z0()
             z0()
@@ -283,7 +296,7 @@ basic.forever(function on_forever() {
             z1()
             z0()
             z1()
-        } else if (Wort[i] == "F") {
+        } else if (wort[i] == "F") {
             z1()
             z0()
             z0()
@@ -291,7 +304,7 @@ basic.forever(function on_forever() {
             z1()
             z1()
             z0()
-        } else if (Wort[i] == "G") {
+        } else if (wort[i] == "G") {
             z1()
             z0()
             z0()
@@ -299,7 +312,7 @@ basic.forever(function on_forever() {
             z1()
             z1()
             z1()
-        } else if (Wort[i] == "H") {
+        } else if (wort[i] == "H") {
             z1()
             z0()
             z0()
@@ -307,7 +320,7 @@ basic.forever(function on_forever() {
             z0()
             z0()
             z0()
-        } else if (Wort[i] == "I") {
+        } else if (wort[i] == "I") {
             z1()
             z0()
             z0()
@@ -315,7 +328,7 @@ basic.forever(function on_forever() {
             z0()
             z0()
             z1()
-        } else if (Wort[i] == "J") {
+        } else if (wort[i] == "J") {
             z1()
             z0()
             z0()
@@ -323,7 +336,7 @@ basic.forever(function on_forever() {
             z0()
             z1()
             z0()
-        } else if (Wort[i] == "K") {
+        } else if (wort[i] == "K") {
             z1()
             z0()
             z0()
@@ -331,7 +344,7 @@ basic.forever(function on_forever() {
             z0()
             z1()
             z1()
-        } else if (Wort[i] == "L") {
+        } else if (wort[i] == "L") {
             z1()
             z0()
             z0()
@@ -339,7 +352,7 @@ basic.forever(function on_forever() {
             z1()
             z0()
             z0()
-        } else if (Wort[i] == "M") {
+        } else if (wort[i] == "M") {
             z1()
             z0()
             z0()
@@ -347,7 +360,7 @@ basic.forever(function on_forever() {
             z1()
             z0()
             z1()
-        } else if (Wort[i] == "N") {
+        } else if (wort[i] == "N") {
             z1()
             z0()
             z0()
@@ -355,7 +368,7 @@ basic.forever(function on_forever() {
             z1()
             z1()
             z0()
-        } else if (Wort[i] == "O") {
+        } else if (wort[i] == "O") {
             z1()
             z0()
             z0()
@@ -363,7 +376,7 @@ basic.forever(function on_forever() {
             z1()
             z1()
             z1()
-        } else if (Wort[i] == "P") {
+        } else if (wort[i] == "P") {
             z1()
             z0()
             z1()
@@ -371,7 +384,7 @@ basic.forever(function on_forever() {
             z0()
             z0()
             z0()
-        } else if (Wort[i] == "Q") {
+        } else if (wort[i] == "Q") {
             z1()
             z0()
             z1()
@@ -379,7 +392,7 @@ basic.forever(function on_forever() {
             z0()
             z0()
             z1()
-        } else if (Wort[i] == "R") {
+        } else if (wort[i] == "R") {
             z1()
             z0()
             z1()
@@ -387,7 +400,7 @@ basic.forever(function on_forever() {
             z0()
             z1()
             z0()
-        } else if (Wort[i] == "S") {
+        } else if (wort[i] == "S") {
             z1()
             z0()
             z1()
@@ -395,7 +408,7 @@ basic.forever(function on_forever() {
             z0()
             z1()
             z1()
-        } else if (Wort[i] == "T") {
+        } else if (wort[i] == "T") {
             z1()
             z0()
             z1()
@@ -403,7 +416,7 @@ basic.forever(function on_forever() {
             z1()
             z0()
             z0()
-        } else if (Wort[i] == "U") {
+        } else if (wort[i] == "U") {
             z1()
             z0()
             z1()
@@ -411,7 +424,7 @@ basic.forever(function on_forever() {
             z1()
             z0()
             z1()
-        } else if (Wort[i] == "V") {
+        } else if (wort[i] == "V") {
             z1()
             z0()
             z1()
@@ -419,7 +432,7 @@ basic.forever(function on_forever() {
             z1()
             z1()
             z0()
-        } else if (Wort[i] == "W") {
+        } else if (wort[i] == "W") {
             z1()
             z0()
             z1()
@@ -427,7 +440,7 @@ basic.forever(function on_forever() {
             z1()
             z1()
             z1()
-        } else if (Wort[i] == "X") {
+        } else if (wort[i] == "X") {
             z1()
             z0()
             z1()
@@ -435,7 +448,7 @@ basic.forever(function on_forever() {
             z0()
             z0()
             z0()
-        } else if (Wort[i] == "Y") {
+        } else if (wort[i] == "Y") {
             z1()
             z0()
             z1()
@@ -443,7 +456,7 @@ basic.forever(function on_forever() {
             z0()
             z0()
             z1()
-        } else if (Wort[i] == "Z") {
+        } else if (wort[i] == "Z") {
             z1()
             z0()
             z1()
@@ -451,7 +464,7 @@ basic.forever(function on_forever() {
             z0()
             z1()
             z0()
-        } else if (Wort[i] == "[") {
+        } else if (wort[i] == "[") {
             z1()
             z0()
             z1()
@@ -459,7 +472,7 @@ basic.forever(function on_forever() {
             z0()
             z1()
             z1()
-        } else if (Wort[i] == "\\") {
+        } else if (wort[i] == "\\") {
             z1()
             z0()
             z1()
@@ -467,7 +480,7 @@ basic.forever(function on_forever() {
             z1()
             z0()
             z0()
-        } else if (Wort[i] == "]") {
+        } else if (wort[i] == "]") {
             z1()
             z0()
             z1()
@@ -475,7 +488,7 @@ basic.forever(function on_forever() {
             z1()
             z0()
             z1()
-        } else if (Wort[i] == "^") {
+        } else if (wort[i] == "^") {
             z1()
             z0()
             z1()
@@ -483,7 +496,7 @@ basic.forever(function on_forever() {
             z1()
             z1()
             z0()
-        } else if (Wort[i] == "_") {
+        } else if (wort[i] == "_") {
             z1()
             z0()
             z1()
@@ -491,7 +504,7 @@ basic.forever(function on_forever() {
             z1()
             z1()
             z1()
-        } else if (Wort[i] == "`") {
+        } else if (wort[i] == "`") {
             z1()
             z1()
             z0()
@@ -499,7 +512,7 @@ basic.forever(function on_forever() {
             z0()
             z0()
             z0()
-        } else if (Wort[i] == "a") {
+        } else if (wort[i] == "a") {
             z1()
             z1()
             z0()
@@ -507,7 +520,7 @@ basic.forever(function on_forever() {
             z0()
             z0()
             z1()
-        } else if (Wort[i] == "b") {
+        } else if (wort[i] == "b") {
             z1()
             z1()
             z0()
@@ -515,7 +528,7 @@ basic.forever(function on_forever() {
             z0()
             z1()
             z0()
-        } else if (Wort[i] == "c") {
+        } else if (wort[i] == "c") {
             z1()
             z1()
             z0()
@@ -523,7 +536,7 @@ basic.forever(function on_forever() {
             z0()
             z1()
             z1()
-        } else if (Wort[i] == "d") {
+        } else if (wort[i] == "d") {
             z1()
             z1()
             z0()
@@ -531,7 +544,7 @@ basic.forever(function on_forever() {
             z1()
             z0()
             z0()
-        } else if (Wort[i] == "e") {
+        } else if (wort[i] == "e") {
             z1()
             z1()
             z0()
@@ -539,7 +552,7 @@ basic.forever(function on_forever() {
             z1()
             z0()
             z1()
-        } else if (Wort[i] == "f") {
+        } else if (wort[i] == "f") {
             z1()
             z1()
             z0()
@@ -547,7 +560,7 @@ basic.forever(function on_forever() {
             z1()
             z1()
             z0()
-        } else if (Wort[i] == "g") {
+        } else if (wort[i] == "g") {
             z1()
             z1()
             z0()
@@ -555,7 +568,7 @@ basic.forever(function on_forever() {
             z1()
             z1()
             z1()
-        } else if (Wort[i] == "h") {
+        } else if (wort[i] == "h") {
             z1()
             z1()
             z0()
@@ -563,7 +576,7 @@ basic.forever(function on_forever() {
             z0()
             z0()
             z0()
-        } else if (Wort[i] == "i") {
+        } else if (wort[i] == "i") {
             z1()
             z1()
             z0()
@@ -571,7 +584,7 @@ basic.forever(function on_forever() {
             z0()
             z0()
             z1()
-        } else if (Wort[i] == "j") {
+        } else if (wort[i] == "j") {
             z1()
             z1()
             z0()
@@ -579,7 +592,7 @@ basic.forever(function on_forever() {
             z0()
             z1()
             z0()
-        } else if (Wort[i] == "k") {
+        } else if (wort[i] == "k") {
             z1()
             z1()
             z0()
@@ -587,7 +600,7 @@ basic.forever(function on_forever() {
             z0()
             z1()
             z1()
-        } else if (Wort[i] == "l") {
+        } else if (wort[i] == "l") {
             z1()
             z1()
             z0()
@@ -595,7 +608,7 @@ basic.forever(function on_forever() {
             z1()
             z0()
             z0()
-        } else if (Wort[i] == "m") {
+        } else if (wort[i] == "m") {
             z1()
             z1()
             z0()
@@ -603,7 +616,7 @@ basic.forever(function on_forever() {
             z1()
             z0()
             z1()
-        } else if (Wort[i] == "n") {
+        } else if (wort[i] == "n") {
             z1()
             z1()
             z0()
@@ -611,7 +624,7 @@ basic.forever(function on_forever() {
             z1()
             z1()
             z0()
-        } else if (Wort[i] == "o") {
+        } else if (wort[i] == "o") {
             z1()
             z1()
             z0()
@@ -619,7 +632,7 @@ basic.forever(function on_forever() {
             z1()
             z1()
             z1()
-        } else if (Wort[i] == "p") {
+        } else if (wort[i] == "p") {
             z1()
             z1()
             z1()
@@ -627,7 +640,7 @@ basic.forever(function on_forever() {
             z0()
             z0()
             z0()
-        } else if (Wort[i] == "q") {
+        } else if (wort[i] == "q") {
             z1()
             z1()
             z1()
@@ -635,7 +648,7 @@ basic.forever(function on_forever() {
             z0()
             z0()
             z1()
-        } else if (Wort[i] == "r") {
+        } else if (wort[i] == "r") {
             z1()
             z1()
             z1()
@@ -643,7 +656,7 @@ basic.forever(function on_forever() {
             z0()
             z1()
             z0()
-        } else if (Wort[i] == "s") {
+        } else if (wort[i] == "s") {
             z1()
             z1()
             z1()
@@ -651,7 +664,7 @@ basic.forever(function on_forever() {
             z0()
             z1()
             z1()
-        } else if (Wort[i] == "t") {
+        } else if (wort[i] == "t") {
             z1()
             z1()
             z1()
@@ -659,7 +672,7 @@ basic.forever(function on_forever() {
             z1()
             z0()
             z0()
-        } else if (Wort[i] == "u") {
+        } else if (wort[i] == "u") {
             z1()
             z1()
             z1()
@@ -667,7 +680,7 @@ basic.forever(function on_forever() {
             z1()
             z0()
             z1()
-        } else if (Wort[i] == "v") {
+        } else if (wort[i] == "v") {
             z1()
             z1()
             z1()
@@ -675,7 +688,7 @@ basic.forever(function on_forever() {
             z1()
             z1()
             z0()
-        } else if (Wort[i] == "w") {
+        } else if (wort[i] == "w") {
             z1()
             z1()
             z1()
@@ -683,7 +696,7 @@ basic.forever(function on_forever() {
             z1()
             z1()
             z1()
-        } else if (Wort[i] == "x") {
+        } else if (wort[i] == "x") {
             z1()
             z1()
             z1()
@@ -691,7 +704,7 @@ basic.forever(function on_forever() {
             z0()
             z0()
             z0()
-        } else if (Wort[i] == "y") {
+        } else if (wort[i] == "y") {
             z1()
             z1()
             z1()
@@ -699,7 +712,7 @@ basic.forever(function on_forever() {
             z0()
             z0()
             z1()
-        } else if (Wort[i] == "z") {
+        } else if (wort[i] == "z") {
             z1()
             z1()
             z1()
@@ -707,7 +720,7 @@ basic.forever(function on_forever() {
             z0()
             z1()
             z0()
-        } else if (Wort[i] == "{") {
+        } else if (wort[i] == "{") {
             z1()
             z1()
             z1()
@@ -715,7 +728,7 @@ basic.forever(function on_forever() {
             z0()
             z1()
             z1()
-        } else if (Wort[i] == "|") {
+        } else if (wort[i] == "|") {
             z1()
             z1()
             z1()
@@ -723,7 +736,7 @@ basic.forever(function on_forever() {
             z1()
             z0()
             z0()
-        } else if (Wort[i] == "}") {
+        } else if (wort[i] == "}") {
             z1()
             z1()
             z1()
@@ -731,7 +744,7 @@ basic.forever(function on_forever() {
             z1()
             z0()
             z1()
-        } else if (Wort[i] == "~") {
+        } else if (wort[i] == "~") {
             z1()
             z1()
             z1()
